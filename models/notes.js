@@ -7,7 +7,7 @@ const notesSchema = new mongoose.Schema({
     Title: {
         type: String,
         //required: true
-        default: "notes"
+        default: "Notes"
     },
     upName:{
         type:String,
