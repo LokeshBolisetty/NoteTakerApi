@@ -10,6 +10,8 @@ It uses a NoSQL database(MangoDB).
 
 ## Model
 
+All the fields have default values.
+
 | Fields     | Type   |
 | -----------| ------ |
 | Title      | String |
@@ -18,7 +20,7 @@ It uses a NoSQL database(MangoDB).
 | Updated    | Date   |
 | Preference | Number |
 
-## You can see the Documentation of the API [Here](https://documenter.getpostman.com/view/11582323/SzzdC14o?version=latest)
+## Documentation of the API [Click Here](https://documenter.getpostman.com/view/11582323/SzzdC14o?version=latest)
 
 All the Routes and parameters are explained their and on the right hand side you can see example requests and responses.
 
