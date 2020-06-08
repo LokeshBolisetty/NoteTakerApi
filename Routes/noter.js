@@ -70,7 +70,9 @@ router.patch('/:noteid', (req, res, next) => {
             if (result.n == 0) output = "No entries have been modified because the given id does not match any note in the database";
             if (result.n > 0) output = result.n + " entry(entries) have been modified";
             res.status(200).json({
-                message: output
+                message: output,
+                link:"https://note-me-api.herokuapp.com/"+id,
+                request:"GET"
             });
         })
         .catch(err => {
